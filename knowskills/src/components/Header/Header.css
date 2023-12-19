@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../../assets/fonts/Inter/static/Inter-SemiBold.ttf);
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+
+    background-color: #232121;
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid white;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar{
+    width: 255px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+}
+
+.navbar button{
+    width: 22px;
+    height: 22px;
+
+    background-color: #F9F9F9;
+    border: 1px solid #707070;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+
+.themelink{
+    width: 86px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginLink{
+    width: 180px;
+    height: 40px;
+
+    background-color: #AD3037;
+    border-radius: 4px;
+    border: none;
+
+    color: white;
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header{
+        background-color: #232121;
+    }
+}

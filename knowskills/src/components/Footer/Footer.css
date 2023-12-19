@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../../assets/fonts/Inter/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../../assets/fonts/Inter/static/Inter-SemiBold.ttf);
+}
+
+.footer-page {
+    height: 337px;
+    width: 100vw;
+
+    background-color: #232121;
+
+    border-top: 1px solid white;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-family: Inter-Bold;
+    font-size: 36px;
+
+    color: white;
+}
+
+.navbar__item{
+    font-family: Inter-SemiBold;
+    font-size: 26px;
+
+    color: white;
+}
+
+.linksFooter{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    height: 82px;
+}
+
+.midia-box{
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+}
+
+.midiaLinks{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    height: 120px;
+}
+
+.midiaLinks a{
+    font-family: Inter-SemiBold;
+    font-size: 26px;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+.navbar-footer{
+    width: 50vw;
+    height: 337px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    
+    margin-left: 60px;
+}
+
+.footer-page__rights {
+    text-align: center;
+    color: var(--text-color);
+}
+
+/* Desktop */
+@media screen and (min-width: 992px){
+}

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../../assets//fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(../../assets//fonts/Inter/static/Inter-SemiBold.ttf);
+}
+
+.layout-grid-login {
+  width: 100vw;
+  height: 100vh;
+  max-width: 992px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logotipoLogin {
+  width: 350px;
+  height: 62px;
+}
+
+body {
+  background-color: #232121;
+}
+
+.login_section {
+  width: 1280px;
+  height: 294px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-loginInput {
+  width: 35vw;
+  height: 320px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+input {
+  width: 510px;
+  height: 45px;
+
+  background-color: #F9F9F9;
+  border-radius: 8px;
+
+  border: none;
+
+  font-family: Montserrat;
+  font-size: 16px;
+
+  color: #000000;
+
+  padding-left: 5px;
+}
+
+button {
+  width: 210px;
+  height: 45px;
+
+  border-radius: 4px;
+
+  background-color: #AD3037;
+
+  font-family: Inter-SemiBold;
+  font-size: 24px;
+
+  color: white;
+
+  border: none;
+}
