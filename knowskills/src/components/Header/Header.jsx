@@ -8,11 +8,9 @@ const Header = () => {
 
   return (
     <header className="header">
-      <Container>
         <div className="header-flex">
           <Nav />
         </div>
-      </Container>
     </header>
   );
 };
